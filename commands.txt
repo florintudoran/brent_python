@@ -1,0 +1,17 @@
+> export PYTHONPATH=$PYTHONPATH:.
+> py.test -s -v tests/home/login_tests.py --browser chrome
+>py.test -s -v tests/home/login_tests_old.py --browser chrome
+
+pentru test suite
+>py.test tests/test_suite_demo.py --browser chrome
+
+my window size
+516 x 990
+
+
+    def showResultList(self, resultList):
+        """
+        list the status of every test
+        """
+        for i in resultList:
+            self.log.info("test" + str(i))
